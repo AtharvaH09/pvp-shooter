@@ -1,0 +1,32 @@
+# ------------------------
+# General
+# ------------------------
+.DS_Store
+*.log
+*.tsbuildinfo
+
+# VSCode/IDE settings (global)
+.vscode/
+.idea/
+
+# ------------------------
+# Client Side
+# ------------------------
+client/node_modules/
+client/dist/
+client/.env
+client/*.local
+client/.vite/
+client/logs/
+client/*.log
+client/*.tsbuildinfo
+
+# ------------------------
+# Server Side
+# ------------------------
+server/node_modules/
+server/dist/
+server/.env
+server/.env.local
+server/*.log
+server/*.tsbuildinfo
